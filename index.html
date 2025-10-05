@@ -9,21 +9,25 @@
   <body>
     <!-- our first and main div container -->
     <div class="container">
-      <h1>Stopwatch</h1>
+      <!-- This is the button elements -->
+      <button id="reset">Clear<b></b></button>
 
       <div id="display">
         <!-- second div with our timer -->
-        <span id="hours">00</span> : <span id="minutes">00</span> :
+        <span id="hours">00 </span> : <span id="minutes">00</span> :
         <span id="seconds">00</span> :
         <span id="milliseconds">00</span>
       </div>
 
       <!-- This is the button elements -->
-      <button id="start">Start</button>
-      <button id="stop">Stop</button>
-      <button id="reset">Reset</button>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <h1>/</h1>
+        <button id="stop">Stop</button>
+      </div>
     </div>
 
     <script src="stopwatch.js"></script>
   </body>
 </html>
+
